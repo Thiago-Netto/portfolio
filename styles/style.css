@@ -1,6 +1,6 @@
-  /* Carousel container styles */
+/* Carousel container styles */
 .carousel-container {
-    width: 80%;
+    width: 65%;
     margin: auto;
     overflow: hidden;
   }
@@ -11,8 +11,8 @@
     transition: transform 0.5s ease-in-out;
   }
   
-  /* Individual image styles */
-  .image {
+  /* Anchor styles to make images take up full width */
+  .image-container a img {
     width: 100%;
     height: auto;
   }
@@ -36,3 +36,6 @@
   .next {
     right: 10px;
   }
+  
+  
+  
