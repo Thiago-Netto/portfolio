@@ -1,0 +1,38 @@
+  /* Carousel container styles */
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Image container styles */
+  .image-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Individual image styles */
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Navigation button styles */
+  .nav-button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #333;
+    background: transparent;
+    border: none;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
