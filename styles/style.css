@@ -36,6 +36,24 @@
   .next {
     right: 10px;
   }
-  
-  
-  
+
+  /* Style for the site as a hole*/
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  footer .container-fluid{
+    background-color: #13142B;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding: 16px;
+    margin: 20px;
+    align-content: center;
+  }
+
+.link-light{
+  text-decoration: none;
+}
